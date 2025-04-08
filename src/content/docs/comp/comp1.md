@@ -1,6 +1,7 @@
 ---
 title: Week 1 Software and Environment
 description: A guide in my new Starlight docs site.
+import { Button } from 'free-astro-components'
 ---
 ## 1. Get things ready, The Whole Experience
 
@@ -16,10 +17,4 @@ Let's go through them together. A
 
 
 
-import { Icon } from '@astrojs/starlight/components';
-import CustomCard from '../../components/CustomCard.astro';
-
-<>
-  <Icon name="open-book" />
-  <CustomCard>Components can also contain **nested content**.</CustomCard>
-</>
+<Button label='Button' />
