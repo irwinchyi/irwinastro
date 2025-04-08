@@ -8,7 +8,7 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   integrations: [
       starlight({
-          title: 'My Docs',
+          title: 'Irwin's Doc',
           social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
           sidebar: [
               {
@@ -23,6 +23,9 @@ export default defineConfig({
                   autogenerate: { directory: 'reference' },
               },
           ],
+          redirects: {
+            '/': 'reference'
+          }
       }),
 	],
 
