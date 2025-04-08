@@ -2,8 +2,6 @@
 title: Week 1 Software and Environment
 description: A guide in my new Starlight docs site.
 ---
-import { Steps } from '@astrojs/starlight/components';
-
 ## 1. Get things ready, The Whole Experience
 
 In this class, you will learn how to use several software/web development tools/languages. Don't worry if you never have any prior coding experience, we will work through one line by one line. 
@@ -16,14 +14,9 @@ Let's go through them together. A
 
 ## Install those apps
 
-import { Steps } from '@astrojs/starlight/components';
 
-<Steps>
-1. Import the component into your MDX file:
 
-   ```js
-   import { Steps } from '@astrojs/starlight/components';
-   ```
-
-2. Wrap `<Steps>` around your ordered list items.
-</Steps>
+import { Icon } from '@astrojs/starlight/components';
+import CustomCard from '../../components/CustomCard.astro';
+<Icon name="open-book" />
+<CustomCard>Components can also contain **nested content**.</CustomCard>
