@@ -23,10 +23,8 @@ export default defineConfig({
                   autogenerate: { directory: 'reference' },
               },
           ],
-          redirects: {
-            '/': 'reference'
           }
-      }),
+      )
 	],
 
   adapter: netlify(),
