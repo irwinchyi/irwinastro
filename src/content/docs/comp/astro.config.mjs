@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import netlify from '@astrojs/netlify';
+import { targetBlank } from './src/plugins/targetBlank';
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,4 +24,12 @@ export default defineConfig({
   ), ],
 
   adapter: netlify(),
+});
+
+
+export default defineConfig({
+  // ...
+  markdown: {
+    rehypePlugins: [[targetBlank, { domain: 'n.irwinqi.com' }]],
+  },
 });

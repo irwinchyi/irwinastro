@@ -1,0 +1,181 @@
+---
+title: Week 1 Software and Environment
+description: A guide in my new Starlight docs site.
+---
+## 1. Landing 🛬
+
+### 1.1 Sharpen your tools 🧰
+
+Welcome! This class will teach you about different tools and languages used to create software and websites. Don't worry if you've never coded before – you don't need any prior experience! We'll take it slow and learn together, looking at examples line by line.
+
+In Mandarin, we have a saying "工欲善其事，必先利其器" literally, "If a workman wishes to do a good job, he must first sharpen his tools."
+
+There are two main ways we'll install software in this class.
+
+1. Using Installer Files: Some software comes in simple packages you can double-click, like `.pkg` files for macOS or `.exe` files for Windows.
+
+2. Using the Command Line: Other software needs to be installed using a tool called the **Terminal** (on macOS) or Command Prompt (**cmd**) or **PowerShell** (on Windows).
+
+#### GitHub
+
+- Use your university .edu email and register <a href="https://education.github.com/pack" target="_blank">GitHub Student Developer Pack</a>
+- Download <a href="https://github.com/apps/desktop" target="_blank">GitHub Desktop</a> 
+
+#### Python
+
+- Install <a href="https://www.python.org/downloads/" target="_blank">Python Environment</a>
+- Install one of Python IDE (Integrated development environment)
+  - <a href="https://code.visualstudio.com/" target="_blank">VS Code</a> from Microsoft
+  - <a href="https://www.jetbrains.com/pycharm/download" target="_blank">PyCharm</a> (Recommended) Remb to scroll down to get the PyCharm Community Edition; the top one is NOT FREE. 
+
+#### R Project for Statistical Computing
+
+- Install <a href="https://cran.wustl.edu/" target="_blank">R Environment</a>
+- R IDE <a href="https://posit.co/download/rstudio-desktop/" target="_blank">RStudio</a>
+
+#### JavaScripts Environment
+
+OMG, there is more?!?!
+
+Node.js is an environment that allows you to build a dynamic website, and npm is the Node Package Manager, which allows you to download programs or modules someone already built. Save your time. 
+
+<a href="https://nodejs.org/en/download/" target="_blank">Install Node.js and npm</a>  
+
+&nbsp;
+
+<img src="https://raw.githubusercontent.com/irwinchyi/imgbed/master/img202504081656477.png" style="zoom:40%;" />
+
+### 1.2 Why this many tools?
+
+import { Card } from '@astrojs/starlight/components';
+
+import { CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="Python is better">
+
+**Rich ecosystem of plugins and libraries.**  
+
+**Web Scraping, using API**
+
+**Natural Language Processing NLP**
+
+**Machine Learning**
+
+**Automation**
+
+</Card>
+  <Card title="R is better">
+
+**Statistical analysis**
+
+**Process huge amounts of data without crash**
+
+**BEST data visualization ggplot2**
+
+**Your Academic publication friend**
+
+  </Card>
+</CardGrid>
+
+### 1.3 Create your own journal website for this class
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+#### 1. Install Git
+
+<Tabs>
+  <TabItem label="macOS">
+
+Open **Terminal** Install brew
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Install Git
+
+```
+brew install git
+```
+
+</TabItem>
+  <TabItem label="Windows">
+
+If you have Windows 11, Open PowerShell
+
+```
+` winget install --id Git.Git -e --source winget `
+```
+
+</TabItem>
+</Tabs>
+
+#### 2. Install Quartz4
+
+In your Terminal or PowerShell, enter the commands line by line
+
+```
+git clone https://github.com/jackyzha0/quartz.git
+cd quartz
+npm i
+npx quartz create
+```
+
+![](https://raw.githubusercontent.com/irwinchyi/imgbed/master/imgCleanShot%202025-04-08%20at%2017.23.04%402x.jpg)
+
+#### 3. Create a new repository on GitHub.com
+
+Make sure you login on your GitHub Desktop App. Click GitHub - Install Command Line Tool
+
+![](https://raw.githubusercontent.com/irwinchyi/imgbed/master/img202504081725856.png)
+
+Copy your url
+
+```
+git remote -v
+git remote set-url origin THE_URL_OF_YOUR_GIT
+npx quartz sync --no-pull
+```
+
+Walla, now you have a website update in real time. 
+
+![](https://raw.githubusercontent.com/irwinchyi/imgbed/master/img202504081925323.png)
+
+### 1.4 Learn Markdown within 10 minutes
+
+<a href="https://learnxinyminutes.com/markdown/" target="_blank">https://learnxinyminutes.com/markdown</a>
+
+### 1.5 Why create your Website
+
+- Document your learning process
+- Codes to reuse
+- Personal Knowledge Vault
+
+<a href="https://base.sznm.dev/" target="_blank">https://base.sznm.dev/ </a> &nbsp;
+
+<a href="https://dev.to/yehezkielgunawan/why-i-made-my-own-personal-documentation-site-2gmb" target="_blank">Why I Made My Own Personal Documentation Site?</a>
+
+## 2. Take off 🛫 
+
+import { Checkbox } from 'free-astro-components'
+
+Installed the tools
+
+<Checkbox label='Python Envir' />&nbsp;
+
+<Checkbox label='Python IDE' />&nbsp;
+
+<Checkbox label='R Envir' />&nbsp;
+
+<Checkbox label='RStudio' />&nbsp;
+
+<Checkbox label='Create GitHub Account' />&nbsp;
+
+<Checkbox label='GitHub Desktop' />&nbsp;
+
+<Checkbox label='Node.js and npm' />&nbsp;
+
+<Checkbox label='Create my own Quartz 4 Website' />&nbsp;
+
+<Checkbox label='Share your link with classmate' />
