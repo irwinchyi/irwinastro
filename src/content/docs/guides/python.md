@@ -13,7 +13,7 @@ A `list` stores different types of items in order, simplifying data organization
 
 **Tuples** are ordered collections that cannot be  changed once created. They are ideal for storing fixed data that  shouldn't change (e.g., coordinates, RGB color values).
 
-```python
+```py title="my-test-file.py"
 tuple_example = (1, '2', True)
 navy_blue = (0, 0, 128)
 # valid tuple
