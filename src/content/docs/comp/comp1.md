@@ -1,8 +1,8 @@
-@ -0,0 +1,181 @@
 ---
-title: Week 1 Software and Environment
+title: Introduction to Computational Communication
 description: A guide in my new Starlight docs site.
 ---
+
 ## 1. Landing 🛬
 
 ### 1.1 Sharpen your tools 🧰
