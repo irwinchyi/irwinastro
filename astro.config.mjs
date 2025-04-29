@@ -26,5 +26,4 @@ export default defineConfig({
 	],
 
   adapter: netlify(),
-  adapter: cloudflare(),
 });
