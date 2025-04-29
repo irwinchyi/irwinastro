@@ -1,0 +1,20 @@
+---
+title: Week 1 Software and Environment
+description: A guide in my new Starlight docs site.
+import { Button } from 'free-astro-components'
+---
+## 1. Get things ready, The Whole Experience
+
+In this class, you will learn how to use several software/web development tools/languages. Don't worry if you never have any prior coding experience, we will work through one line by one line. 
+
+In Mandarin, we have a saying "工欲善其事，必先利其器" literally "If a workman wishes to do a good job, he must first sharpen his tools."
+
+Let's go through them together. A
+
+
+
+## Install those apps
+
+
+
+<Button label='Button' />
