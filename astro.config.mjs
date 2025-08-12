@@ -20,6 +20,10 @@ export default defineConfig({
                   label: 'Guides',
                   autogenerate: { directory: 'guides' },
               },
+              {
+                  label: 'Syllabus',
+                  autogenerate: { directory: 'syllabus' },
+              },
           ],
           }
       )
